@@ -1,0 +1,11 @@
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+Flask-JWT-Extended==4.4.0
+Flask-CORS==4.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+psycopg2-binary # if using PostgreSQL (recommended for production)
+# If you use SQLite for development, you don't need psycopg2-binary
+# Werkzeug==2.3.7 # Ensure Werkzeug version is compatible with Flask-JWT-Extended if you encounter issues
+gunicorn # For production deployment (e.g., on Render)
